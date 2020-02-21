@@ -3,14 +3,8 @@ Final coursework project in Numerical Recipes course, taken during fall semester
 
 Aleksandra Sobieska
 
-Data generation using a 2-dimensional probability density function (PDF) for
+Main script - data generation using a 2-dimensional probability density function (PDF) for
 radioactive decay and parameter fitting with maximum likelihood.
-
-This programme randomly generates data for a probability density function (PDF) representing a radioactive decay
-using box method and plots a histogram of the whole distribution or just its components. It also performs
-a maximum likelihood fit on the PDF parameters for the complete data set with both time and angle data
-and its partial version with time data only available. In addition, it calculates simple and proper errors
-for the best-fit values and plots NLL (the negative of the log of the joint likelihood) against a parameter.
 """
 from NRclasses import Generate, ML
 
